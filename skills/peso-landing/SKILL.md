@@ -1,6 +1,6 @@
 ---
 name: peso-landing
-description: Audita una landing o página estática como un code review: peso, rendimiento, accesibilidad, SEO básico y fallas de código, con archivo, línea y arreglo. Úsala cuando pidan revisar una landing antes de publicarla, ver por qué carga lento o encontrar errores en su HTML, CSS o JavaScript.
+description: "Audita una landing o página estática como un code review: peso, rendimiento, accesibilidad, SEO básico y fallas de código, con archivo, línea y arreglo. Úsala cuando pidan revisar una landing antes de publicarla, ver por qué carga lento o encontrar errores en su HTML, CSS o JavaScript."
 ---
 
 # peso-landing

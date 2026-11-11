@@ -44,7 +44,7 @@ node skills/antes-de-instalar/scripts/radiografia.mjs <carpeta-del-plugin-o-repo
 ```
 
 ## Límites reales
-- **Prueba en Claude Code y en Codex pendiente.** Los scripts se corrieron con Node en Windows; que cada herramienta descubra e invoque las skills a través del enlace no está probado todavía.
+- **Probado solo en Claude Code (Windows).** Los scripts se corrieron con Node; las rutas de otras herramientas, incluida `.agents/skills/`, vienen de su documentación y no las he probado.
 - `antes-de-instalar` hace análisis estático: busca patrones de riesgo (descargas que se ejecutan, lectura de credenciales o cookies, comandos destructivos, hooks automáticos). Que no encuentre nada no prueba que algo sea seguro, y puede marcar falsos positivos que hay que leer a mano.
 - `peso-landing` revisa archivos, no mide la página en un navegador. Para Core Web Vitals reales usa Lighthouse o PageSpeed Insights.
 - Un documento de terceros (`wshobson/agents`, `docs/harnesses.md`) afirma que Codex recorta el cuerpo de una skill a 8 KB; la documentación de Codex que revisé no lo menciona. Mantén tus `SKILL.md` cortos.
